@@ -1,22 +1,24 @@
-@media(min-width: 675px)
+
+@media(max-width: 640px)
 {
     #navigationList{
-        visbility: visible;
+        /* visibility: hidden !important; */
+        display: none;   
+        
     }
-
-    #small-screen-dropdown{
-        visibility: hidden;
-    }
-}
-
-
-@media(max-width: 674px)
-{
-    #navigationList{
-        visibility: hidden;
-    }
-
     #small-screen-dropdown{
         visibility: visible;
     }
-}
+}   
+
+@media(min-width 639px)
+{
+    #navigationList{
+        visibility: visible !important;
+    }  
+    
+    #small-screen-dropdown{
+        /* visibility: hidden; */
+        display: none;   
+    }
+} 
