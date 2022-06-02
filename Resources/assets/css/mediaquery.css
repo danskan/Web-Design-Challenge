@@ -1,0 +1,22 @@
+@media(min-width: 675px)
+{
+    #navigationList{
+        visbility: visible;
+    }
+
+    #small-screen-dropdown{
+        visibility: hidden;
+    }
+}
+
+
+@media(max-width: 674px)
+{
+    #navigationList{
+        visibility: hidden;
+    }
+
+    #small-screen-dropdown{
+        visibility: visible;
+    }
+}
